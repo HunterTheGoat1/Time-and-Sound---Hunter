@@ -83,7 +83,7 @@ namespace Time_and_Sound___Hunter
 
 
             _spriteBatch.Draw(bombTexture, bombRect, Color.White);
-            _spriteBatch.DrawString(titleFont, (16 - seconds).ToString("00.0"), new Vector2(270, 200), Color.Black);
+            _spriteBatch.DrawString(titleFont, (15 - seconds).ToString("00.0"), new Vector2(270, 200), Color.Black);
 
 
             _spriteBatch.End();
